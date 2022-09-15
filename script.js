@@ -29,6 +29,6 @@ function checkIfLucky(luckyNumber) {
   if (sum % luckyNumber === 0) {
     outputMessageEl.textContent = "Wow Lucky!";
   } else {
-    outputMessageEl.textContent = "Your lucky Number is not so lucky";
+    outputMessageEl.textContent = `${luckyNumber} is not so lucky`;
   }
 }
